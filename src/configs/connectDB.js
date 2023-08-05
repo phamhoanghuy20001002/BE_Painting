@@ -90,9 +90,7 @@ const sequelize = new Sequelize(
                     }
                 } : {}
         ,
-        query: {
-            "raw": true
-        },
+
         timezone: "+07:00"
     });
 
